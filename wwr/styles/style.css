@@ -233,3 +233,124 @@ nav {
         margin-top: 25px;
     }
 }
+
+/* -------------- PAGE 2 ------------- */
+
+main {
+    background-color: lightgray;
+    
+}
+#hero-img2 {
+    width:100%;
+}
+#hero-msg2 {
+    width: 100%;
+    color: #FCEC52;
+    background-color:#1B5600;
+    padding: 20px;
+    text-align: center;
+    margin-top: -10px;
+}
+#prices-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px;
+}
+
+#trip-one {
+    padding-top: 10px;
+    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#trip-one-description {
+    grid-column: 3/4; 
+    padding-top: 10px; 
+}
+#trip-two {
+    grid-column: 1/2;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#trip-two-description {
+    grid-column: 3/4;
+    padding-top: 10px; 
+}
+#trip-three {
+    grid-column: 1/2;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#trip-three-description {
+    grid-column: 3/4;
+    padding-top: 10px; 
+}
+#trip-four {
+    grid-column: 1/2;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#trip-four-description {
+    grid-column: 3/5;
+    padding-top: 10px; 
+}
+.trip-one-img {
+    width: 75%;
+    border-radius: 25%;
+}
+.trip-two-img {
+    width: 75%;
+    border-radius: 25%;
+}
+.trip-three-img {
+    width: 75%;
+    border-radius: 25%;
+}
+.trip-four-img {
+    width: 75%;
+    border-radius: 25%;
+}
+#trip-two, #trip-two-description {
+    border-color: #1B5600;
+    border-top: solid;
+    border-bottom: solid;
+}
+#trip-four, #trip-four-description {
+    border-color: #1B5600;
+    border-top: solid;
+    border-bottom: solid;
+}
+#page-two-contact {
+    padding: 50px;
+    grid-column: 1/4;
+    align-items: center;
+}
+.trip-type {
+    font-family: Grandstander, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    padding-top: 15px;
+    margin: 20px;
+}
+.page-2-title {
+    font-family: Grandstander, Arial, Helvetica, sans-serif;
+}
+.dates {
+    padding-top: 20px; 
+    font-family: Reem Kufi, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.prices {
+    border-bottom: solid;
+    grid-column: 2/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
