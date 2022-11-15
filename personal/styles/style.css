@@ -1,7 +1,7 @@
 header {
     background-color: #FF0022;
     display: grid;
-    grid-template-columns: 150px auto;
+    grid-template-columns: 100px auto;
 }
 
 .logo {
