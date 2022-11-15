@@ -1,0 +1,12 @@
+header {
+    background-color: #FF0022;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+.logo {
+    width: 50px;
+    padding-left: 15px;
+}
+img {
+    width: 25%;
+}
