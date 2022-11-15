@@ -3,10 +3,18 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
 }
+
 .logo {
     width: 50px;
     padding-left: 15px;
 }
 img {
     width: 25%;
+}
+
+
+
+footer {
+    display: grid;
+    grid-template-columns: 200px auto;
 }
