@@ -30,6 +30,10 @@ nav a:hover {
 img {
     width: 25%;
 }
+body {
+    background-color: rgb(183, 183, 183);
+
+}
 footer {
     background-color:#e70000; ;
     color:white;
@@ -91,6 +95,7 @@ footer p {
     text-align: center;
     font-family: Handlee, Helvetica;
     margin-top: -50px;
+    margin-bottom: -60px;
 }
 
 
@@ -206,12 +211,106 @@ main a:hover {
 }
 /* -------------⬆️⬆️⬆️⬆️⬆️⬆️⬆️HOME-PAGE⬆️⬆️⬆️⬆️⬆️⬆️⬆️------------- */
 /* -------------⬇️⬇️⬇️⬇️⬇️⬇️⬇️SUB-PAGES⬇️⬇️⬇️⬇️⬇️⬇️⬇️------------- */
+#hero-subpage-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 1fr 150px;
+    align-items: center;
+}
+.hero-title-subpages {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 1/2;
+    font-size: 60px;
+    font-family: Handlee, Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    z-index: 1;
+    color: #242856;
+    margin-top: -50px;
+
+}
+.hero-img-subpages {
+    width: 80%;
+    height: auto;
+    
+}
+.hero-box-subpages {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero-subpage-description {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    text-align: center;
+    justify-content: center;
+    color: #242856;
+    font-family: Niramit, Arial, Helvetica, sans-serif;
+    border-bottom: solid;
+    padding-bottom: 20px;
+}
+#hero-background {
+    color: rgb(183, 183, 183);
+    z-index: -1;
+}
+
+/* ------------ SUBPAGE MAIN SECTION ------------ */
 
 
-
-
-
-
+.subpage-grid {
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+    grid-template-rows: 100px 300px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid;
+    border-color:rgb(9, 12, 98);
+}
+.subpage-left {
+    grid-column: 1/2;
+    grid-row: 1/4;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.subpage-right {
+    grid-column: 3/4;
+    grid-row: 1/4;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.subpage-description {
+    grid-column: 2/3;
+    grid-row: 2/4;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Niramit, Arial, Helvetica, sans-serif;
+}
+.left-img {
+    height: 300px;
+    width: 250px;
+    align-self: center;
+}
+.subpage-main-title {
+    grid-column: 2/3;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: -50px;
+    font-family: Handlee, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #242856;
+}
 
 
 
