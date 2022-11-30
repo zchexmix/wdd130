@@ -299,6 +299,9 @@ main a:hover {
     width: 250px;
     align-self: center;
 }
+.subpage-titles {
+    pointer-events: none;
+}
 .subpage-main-title {
     grid-column: 2/3;
     text-align: center;
