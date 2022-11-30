@@ -210,25 +210,24 @@ main a:hover {
     transform: scale(1.1);
 }
 /* -------------⬆️⬆️⬆️⬆️⬆️⬆️⬆️HOME-PAGE⬆️⬆️⬆️⬆️⬆️⬆️⬆️------------- */
+
 /* -------------⬇️⬇️⬇️⬇️⬇️⬇️⬇️SUB-PAGES⬇️⬇️⬇️⬇️⬇️⬇️⬇️------------- */
 #hero-subpage-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 200px 1fr 150px;
+    grid-template-rows: 150px 1fr 150px;
     align-items: center;
 }
 .hero-title-subpages {
-    grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column: 1/4;
     grid-row: 1/2;
-    font-size: 60px;
+    font-size: 50px;
     font-family: Handlee, Arial, Helvetica, sans-serif;
     text-align: center;
     justify-content: center;
     z-index: 1;
     color: #242856;
-    margin-top: -50px;
-
+    pointer-events: none;
 }
 .hero-img-subpages {
     width: 80%;
