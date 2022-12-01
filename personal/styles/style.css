@@ -22,6 +22,7 @@ nav a:hover {
     background-color:rgb(9, 12, 98) ;
     color:red;
 }
+
 .logo {
     width: 50px;
     padding: 10px;
@@ -217,6 +218,7 @@ main a:hover {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 150px 1fr 150px;
     align-items: center;
+    background-color: #242856;
 }
 .hero-title-subpages {
     grid-column: 1/4;
@@ -248,9 +250,8 @@ main a:hover {
     grid-row: 3/4;
     text-align: center;
     justify-content: center;
-    color: #242856;
+    color: white;
     font-family: Niramit, Arial, Helvetica, sans-serif;
-    border-bottom: solid;
     padding-bottom: 20px;
 }
 #hero-background {
