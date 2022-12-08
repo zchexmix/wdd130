@@ -18,23 +18,29 @@
   overflow: hidden;
   width: 100%;
   height: 0;
-  transition: .5s ease;
-  overflow-wrap: break-word;
+  transition: .7s ease;
+  overflow-wrap: normal;
   opacity: 75%;
+  
 }
 
 .container:hover .overlay {
   height: 33%;
+  
 }
 
 .text {
-  white-space: nowrap; 
-  color: white;
-  font-size: 30px;
+  white-space: normal; 
+  color: black;
+  font-size: 25px;
   position: absolute;
-  overflow: hidden;
+  overflow: visible;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -25%);
+  -ms-transform: translate(-25%, -25%);
+  z-index: 1;
+  overflow-wrap: normal
+  33;
 }
+
